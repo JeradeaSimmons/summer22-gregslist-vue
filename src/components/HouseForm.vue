@@ -9,17 +9,18 @@
       </div>
 
       <div class="col-4">
-        <label class="form-label" for="bedrooms">Rooms</label>
+        <label class="form-label" for="rooms">Rooms</label>
         <input class="form-control" type="text" id="rooms" name="rooms" v-model="editable.rooms">
       </div>
-
       <div class="col-4">
-        <label class="form-label" for="year">Year</label>
-        <input class="form-control" type="number" id="year" name="year" v-model="editable.year">
+        <label class="form-label" for="bathrooms">Bathrooms</label>
+        <input class="form-control" type="text" id="bathrooms" name="bathrooms" v-model="editable.bathrooms">
       </div>
 
-      <label class="form-label" for="bathrooms">Bathrooms</label>
-      <input class="form-control" type="number" id="bathrooms" name="bathrooms" v-model="editable.bathrooms">
+      
+
+      <label class="form-label" for="year">Year</label>
+      <input class="form-control" type="number" id="year" name="year" v-model="editable.year">
 
       <label class="form-label" for="imgUrl">Image</label>
       <input class="form-control" type="text" id="imgUrl" name="imgUrl" v-model="editable.imgUrl">
